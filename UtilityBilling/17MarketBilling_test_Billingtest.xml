@@ -9,7 +9,7 @@
    
      
     
-        <class name="BillRunFirst.ElectBillRun"/> 
+        <class name="com.Utility.Bill.BillRunFirst.ElectAccountCreation_test"/> 
          
         <!-- 
        1.   <class name="BillRunFirst.ElectAccountCreation_test"/>  
