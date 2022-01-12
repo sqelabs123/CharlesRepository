@@ -1,0 +1,2 @@
+Customer Number,Alternative Customer Number,*Plan Number,*Meter Number,*Meter Configuration [1-Flat / 2-Peak/OffPeak/Shoulder],*Prorata Date,*Meter Read Type [R-Reads/C-Consumption],*Kfactor, *Meter Type [HE - Electricity / WT - Water/ GS - Gas],Master Meter,Walk Order,Sub Address Type,Sub Address Number,Street Number,Street Name,Street Type,Suburb,State / Country,Postal (Zip) Code,Route,High Reading,Low Reading,Heating Value,Pressure factor,Conversion Factor,Unit
+221864,,11363,Gas114,1,3/3/2018,R,1,,,,,,,,,,,,5001,,,,,,

@@ -1,0 +1,2 @@
+Plan_No,Usage_Type,Plan_Name,Plan_Valid_From,Plan_Valid_To,Charge_Description,Rollup_Description,Charge_Type,Unit,Rating_Method,Tiered_Rate,Rate,Tax?,Group_No
+5999,,,,,Flat Fee,Flat Fee,Electricity Charges,kW,Usage Flat Rate,,5,Yes,583

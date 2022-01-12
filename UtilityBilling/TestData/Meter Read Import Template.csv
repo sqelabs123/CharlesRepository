@@ -1,0 +1,2 @@
+*Meter Number,	*Date of Read,	Flat Rate Read,	Peak Read,	Shoulder Read,	Off Peak Read,	*Read Type [I-Initial / A-Actual / C - Consumption / E-Estimate / F - Final],	Notes
+Gas174018,05/08/2018,1000,200,300,50,A,Actual Read

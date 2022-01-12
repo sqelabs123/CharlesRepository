@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="C123456789@c"/>
+    <parameter name="userId" value="sqetest155"/>
+    <parameter name="url" value="https://test.utilitybilling.com/billing/"/>
+    <classes>
+      <class name="com.Utility.Bill.BillRunFirst.ElectAccountCreation_test">
+        <methods>
+          <include name="signUpForm"/>
+          <include name="Open_Browser"/>
+          <include name="locale_settings"/>
+          <include name="editGroup"/>
+          <include name="changePassword"/>
+        </methods>
+      </class> <!-- com.Utility.Bill.BillRunFirst.ElectAccountCreation_test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

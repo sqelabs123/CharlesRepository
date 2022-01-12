@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="Test">
+  	<parameter name="url" value="https://test.waterworkslms.com/waterworks/"></parameter>
+	<parameter name="userId" value="sqetest54321@gmail.com"></parameter>
+	<parameter name="password" value="C123456789@c"></parameter>
+   <classes>
+   
+    		
+    		<class name="BillRunFirst.ElectrImportSetupTools"/>
+    	
+	<!--
+		<class name="BillRunFirst.Admin_Features"/>
+		<class name="BillRunFirst.ElectAccountCreation_test"/>   	
+		<class name="BillRunFirst.ElectAdminAccountCreation"/>
+		<class name="BillRunFirst.ElectPlanMangement"/>
+		<class name="BillRunFirst.ElectServiceManagement"/>	
+		<class name="BillRunFirst.Customer_Portal"/> 
+		<class name="BillRunFirst.ElectMeterReadsThroughFrontend"/>
+		
+		<class name="BillRunFirst.invoice_setup"/>
+		<class name="BillRunFirst.ElectCreateCustomer_test"/>
+		<class name="BillRunFirst.ElectBillRun"/>
+		<class name="BillRunFirst.ElectPayments"/>
+		
+		
+							
+						  
+						 	    
+	 -->			 			          
+         		        
+    			  <!--  
+    			  <class name="BillRunFirst.testassertion"/>
+    			  
+    			  <class name="BillRunFirst.Customerportal"/> 
+    			  //<class name="BillRunFirst.multiple_Customer"/>// when u ned then run this class
+    			  <class name="Yellow_belt.invoice_setup_yellowBelt"/>
+         				<class name="reports.Meter_reading_taps"/>                       -->
+         
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="Test">             
+  	<parameter name="url" value="https://tvs.utilibill.com.au/truevaluesolar"></parameter>
+	<parameter name="userId" value="ellenheart123@gmail.com"></parameter>
+	<parameter name="password" value="C123456789@c"></parameter>
+    <classes>
+		 
+					 
+					 
+					 
+	 <!--  				 
+		 		 
+				<class name="BillRunFirst.ElectAccountCreation_test"/>
+	 			<class name="BillRunFirst.invoice_setup"/>			 	
+	 		    <class name="BillRunFirst.ElectPlanMangement"/>
+	 			<class name="BillRunFirst.ElectAdminAccountCreation"/>
+	 			<class name="BillRunFirst.ElectServiceManagement"/>
+	 			<class name="BillRunFirst.ElectPayments"/>
+	 			<class name="BillRunFirst.ElectMeterReadsThroughFrontend"/>
+	 			<class name="BillRunFirst.ElectCreateCustomer_test"/>
+	 			<class name="BillRunFirst.ElectrImportSetupTools"/>
+	 			<class name="BillRunFirst.ElectBillRun"/>
+	 			<class name="BillRunFirst.Customerportal"/>	   				
+   	 -->					
+  	 	   	  				
+         		        
+     <!--    			             				
+         				<class name="Yellow_belt.invoice_setup_yellowBelt"/>
+         				<class name="reports.Meter_reading_taps"/>
+      -->   
+       						 		
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

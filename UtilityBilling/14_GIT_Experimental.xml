@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="url" value="https://utbr8git.utilibill.com.au/billing/"></parameter>
+	<parameter name="userId" value="aditi989894@gmail.com"></parameter>
+	<parameter name="password" value="C123456789@c"></parameter>
+	
+    <classes>
+    
+    
+    		
+    
+    
+    
+  <!--   <parameter name="userId" value="sunidhi.saini@sqelabs.com"></parameter>
+		 <parameter name="password" value="C123456789@c"></parameter>
+  
+ 
+  
+  
+      			<class name="BillRunFirst.ElectAccountCreation_test"/>
+	 			<class name="BillRunFirst.invoice_setup"/>			 	
+	 		    <class name="BillRunFirst.ElectPlanMangement"/>
+	 			<class name="BillRunFirst.ElectAdminAccountCreation"/>
+	 			<class name="BillRunFirst.ElectServiceManagement"/>
+	 			<class name="BillRunFirst.ElectPayments"/>
+	 			<class name="BillRunFirst.ElectMeterReadsThroughFrontend"/>
+	 			<class name="BillRunFirst.ElectCreateCustomer_test"/>
+	 			<class name="BillRunFirst.ElectrImportSetupTools"/>
+	 			<class name="BillRunFirst.ElectBillRun"/>
+	 			<class name="BillRunFirst.Customerportal"/>	
+		 				
+		 				
+ -->
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

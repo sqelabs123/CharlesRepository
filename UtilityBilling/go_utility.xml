@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="Test">
+  	<parameter name="url" value="https://go.utilitybilling.com/billing/"></parameter>
+	<parameter name="userId" value="157test"></parameter> 
+	<parameter name="password" value="C123456789@c"></parameter>
+	
+   <classes>
+  
+  		 <class name="com.Utility.Bill.BillRunFirst.Admin_Features"/>
+     <!-- 
+       1.   <class name="com.Utility.Bill.BillRunFirst.ElectAccountCreation_test"/>  
+       2.   <class name="com.Utility.Bill.BillRunFirst.Admin_Features"/>  
+       3.   <class name="com.Utility.Bill.BillRunFirst.ElectAdminAccountCreation"/> 
+       4.   <class name="com.Utility.Bill.BillRunFirst.SetupAllocationucket_updateAndRe_OrderBucket"/>
+       5.   <class name="com.Utility.Bill.BillRunFirst.ElectPlanMangement"/> 
+       6.   <class name="com.Utility.Bill.BillRunFirst.other_Admin"/> 
+       7.   <class name="com.Utility.Bill.BillRunFirst.invoice_setup"/>
+       8.   <class name="com.Utility.Bill.BillRunFirst.ElectPayments"/>
+       9.   <class name="com.Utility.Bill.BillRunFirst.ElectServiceManagement"/>
+       10.  <class name="com.Utility.Bill.BillRunFirst.ElectMeterReadsThroughFrontend"/>
+       11.  <class name="com.Utility.Bill.BillRunFirst.ElectCreateCustomer_test"/>
+       12.  <class name="com.Utility.Bill.BillRunFirst.others_ImportService"/> 
+       13.  <class name="com.Utility.Bill.BillRunFirst.ElectrImportSetupTools"/>
+       14.  <class name="com.Utility.Bill.BillRunFirst.ElectBillRun"/> 
+       15.  <class name="com.Utility.Bill.BillRunFirst.Communication_Outbox"/>
+       16.  <class name="com.Utility.Bill.BillRunFirst.Payments_and_ManagingAllocations_Test"/>
+       
+        <class name="com.Utility.Bill.BillRunFirst.Single_Customer_Rollback_Rebill"/>      for upto build 142 
+        <class name="com.Utility.Bill.BillRunFirst.New_reminder_functionality"/>           for upto build 142 
+        
+        
+        
+      
+       <class name="com.Utility.Bill.BillRunFirst.test_Temp"/>
+       <class name="com.Utility.Bill.BillRunFirst.multiple_Customers"/>-->
+         
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

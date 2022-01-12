@@ -1,0 +1,2 @@
+Customer No,Alternative Customer No,Transaction Type,Payment Method,Card Type,Amount,Transaction Date,Comments,Auto Allocate,Batch No
+221859,,P,CH,,100,09/28/2021,Make payment with Allocate value set in TRUE,TRUE,
