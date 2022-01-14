@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test"> 
+  <parameter name="url" value="https://test.electricitybilling.com/billingtest/"></parameter>
+		<parameter name="userId" value="kashswati072@gmail.com"></parameter>
+		<parameter name="password" value="C123456789@c"></parameter>
+    <classes>
+    
+    
+  		<class name="reports.Customer"/>
+    
+    
+ <!--  <class name="reports.Meter_reading_taps"/>
+ 	   <class name="reports.Finalcial"/>
+ 	   <class name="reports.Statement"/>
+ 	   
+ 	   	
+  	   <class name="reports.Rating"/>
+       <class name="reports.Adjustment"/>
+       
+       <class name="reports.Broken_link"/>
+       <class name="reports.MultiBrowser"/>
+       <class name="reports.Management"/>
+       
+       <class name="reports.Service"/>
+       
+       
+-->   
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
