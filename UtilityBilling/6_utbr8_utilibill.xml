@@ -8,7 +8,7 @@
 	<parameter name="password" value="C123456789@c"></parameter>
     <classes>		 
 					 
-		<class name="com.Utility.Bill.BillRunFirst.ElectServiceManagement"/>
+		<class name="com.Utility.Bill.BillRunFirst.ElectAccountCreation_test"/>
        <!-- 
        1.   <class name="BillRunFirst.ElectAccountCreation_test"/>  
        2.   <class name="BillRunFirst.Admin_Features"/>  
